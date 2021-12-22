@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card airbnb</title>
+    <style media="screen">
+      .cardbody{
+          position: relative;
+          width: 100%;
+          transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+          border-radius: 3px;
+          overflow: hidden;
+          box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px, rgb(31 31 31 / 12%) 0px 1px 4px;
+          cursor: pointer;
+          background-color: white;
+          height: 100%;
+         }
+        .cardcontent{
+           display: flex;
+           -webkit-box-align: center;
+           align-items: center;
+         }
+        .cardimg{
+         width: 80px;
+         min-width: 80px;
+         height: 80px;
+         margin-right: 10px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-image: url(data.jpeg);
+          }
+      .cardtext{
+        -webkit-box-direction: normal;
+        -webkit-box-orient: vertical;
+        display: flex;
+        flex-direction: column;
+      }
+      .tit{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(31, 31, 31);
+        font-family: OpenSans,Arial,sans-serif;
+      }
+      .ddd{
+        width: 300px;
+        border-radius: 8px;
+      }
+    </style>
+</head>
+<body>
+    <div class="cardbody">
+        <div class="cardcontent">
+          <div class="cardimg"></div>
+          <div class="cardtext">
+             <div class="tit">Boukernine abdellatif </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <div class="cardbody ddd">
+        <div class="cardcontent">
+          <div class="cardimg"></div>
+          <div class="cardtext">
+             <div class="tit">Boukernine abdellatif </div>
+          </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
